@@ -1,0 +1,43 @@
+/* Default behavior — large screens */
+@media (max-width: 768px) {
+  #newsForm {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  #input, #button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #input, #button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+@media (max-width: 320px) {
+    #input, #button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+@media (max-width: 240px) {
+    #input, #button {
+      font-size: 10px;
+      padding: 6px 10px;
+    }
+  }
+/* Small screens */
+@media (max-width: 480px) {
+  #newsForm {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  #input, #button {
+    width: 100%;
+  }
+}
+
